@@ -9,6 +9,9 @@ import base64
 
 """
 ganache-cli --accounts 10 --defaultBalanceEther 10000 --fork https://bsc-dataseed.binance.org --mnemonic brownie --port 8545 --hardfork istanbul"""
+"""
+https://www.lootproject.com/
+"""
 p = project.load('/Users/rome/Desktop/ihyf/code/MyBrownie/loot', name="loot")
 p.load_config()
 network.connect('MyBsc4')
